@@ -8,7 +8,7 @@ document.getElementById('calculator-form').addEventListener('submit', function(e
     if (leads > 0) {
         const totalSpend = organicSpend + adsSpend;
         const costPerLead = totalSpend / leads;
-        document.getElementById('result').textContent = `Your Cost Per Lead is $${costPerLead.toFixed(2)}`;
+        document.getElementById('result').textContent = `Your Cost Per Acquisition is $${costPerLead.toFixed(2)}`;
     } else {
         document.getElementById('result').textContent = 'Please enter a valid number of leads.';
     }
